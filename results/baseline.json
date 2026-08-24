@@ -1,0 +1,51 @@
+{
+  "model": "tfidf+logreg",
+  "accuracy": 0.7859778597785978,
+  "macro_f1": 0.7814249344322446,
+  "labels": [
+    "iqtisodiyot",
+    "jahon",
+    "jamiyat",
+    "sport",
+    "uzbekiston"
+  ],
+  "confusion_matrix": [
+    [
+      42,
+      4,
+      1,
+      0,
+      7
+    ],
+    [
+      1,
+      50,
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      4,
+      38,
+      0,
+      10
+    ],
+    [
+      1,
+      0,
+      0,
+      54,
+      0
+    ],
+    [
+      11,
+      0,
+      12,
+      2,
+      29
+    ]
+  ],
+  "n_train": 2164,
+  "n_test": 271
+}
