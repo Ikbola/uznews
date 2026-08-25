@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+lxml
+pandas
+scikit-learn
+joblib
+fastapi
+uvicorn
+
+[dev]
+pytest
+httpx
