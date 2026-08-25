@@ -5,6 +5,7 @@ Usage:
 """
 
 import json
+import joblib
 from pathlib import Path
 
 import pandas as pd
@@ -84,6 +85,8 @@ def main() -> None:
             "n_test": len(test),
         }, fh, indent=2)
 
+    joblib.dump(pipeline, RESULTS_DIR / "baseline_model.joblib")
+    
     print(f"\nsaved -> {RESULTS_DIR / 'baseline.json'}")
 
 
